@@ -48,8 +48,8 @@ void invoiceDesign(billData **bills, customerData *customer, int *total, int cus
     printf("\nDiscount(@10)\t\t          %f",(float)(total[customerNo]*10/100));
     printf("\n             \t\t          ===========");
     printf("\nNet Total    \t\t          %d",total[customerNo]-total[customerNo]*10/100);
-    printf("\nCGST (@9%)   \t\t          %f",(float)(total[customerNo]*9/100));
-    printf("\nSGST (@9%)   \t\t          %f",(float)(total[customerNo]*9/100));
+    printf("\nCGST (@2.5%)   \t\t          %f",(float)(total[customerNo]*2.5/100));
+    printf("\nSGST (@2.5%)   \t\t          %f",(float)(total[customerNo]*2.5/100));
     printf("\n============================================");
     printf("\nGrand Total  \t\t          %f",(float)(total[customerNo]+total[customerNo]*9/100+total[customerNo]*9/100));
     printf("\n============================================\n");
